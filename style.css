@@ -1,0 +1,379 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* body{
+    background-color:rgb(0, 81, 255);
+} */
+.section-p1{
+    padding:40px 80px;
+}
+#navbar{
+    width:100%;
+    height:13vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: orangered;
+    box-shadow: 2px 2px 15px #000;
+    position:sticky;
+    top:0;
+    left:0;
+}
+#navbar .logo{
+    text-decoration: none;
+    font-size: 35px;
+    color: #000;
+    font-weight:600;
+    cursor: none;
+}
+#navbar .menu a{
+    font-size: 14px;
+    padding: 4px;
+    text-decoration: none;
+    color:#000;
+    cursor:pointer;
+}
+#navbar .menu .active{
+    background-color: #000;
+    color: orangered;
+    padding: 7px 10px;
+    border-radius: 20px;
+}
+#navbar .menu a:hover{
+    background-color: #000;
+    color: orangered;
+    padding: 7px 10px;
+    border-radius: 20px;
+}
+#navbar .search input{
+    padding: 9px;
+    border-bottom-left-radius: 4px;
+    border-top-left-radius: 4px;
+    border: 1px solid#000;
+    border: none;
+}
+#navbar .search button{
+    padding: 9px;
+    border-bottom-right-radius: 4px;
+    border-top-right-radius: 4px;
+    border: 1px solid#000; 
+    border: none;
+    background-color: #000;
+    color: orangered;
+}    
+#navbar i{
+    font-size: 30px;
+    margin-bottom: 7px;
+}
+#main .text{
+    background-image: url(images/Cover/inside-weather-ej3UoXYMaRI-unsplash-2.jpg);
+    background-size: cover;
+    background-position: center;
+    width:100%;
+    height:87vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-shadow: 2px 2px 4px #000;
+}
+#main .text h1{
+    font-size: 28px;
+}
+#main .text h3{
+    font-size: 38px;
+    color: orangered;
+    margin-top: 10px;
+}
+#main .text p{
+    margin-top: 10px;
+    font-weight: 700;
+}
+#main .text button{
+    margin-top: 40px;
+    padding: 10px 30px;
+    color:orangered;
+    background-color: #000;
+    border-radius: 4px;
+}
+#features{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+#features .freestyle img{
+    width: 100px;
+    height:100px;
+    margin: 0 25px;
+}
+#features .freestyle h5{
+    text-align: center;
+    font-size: 12px;
+}
+#bigbanner{
+    background-image: url(images/Banners/360_F_508170187_4Oonk4IG8u9eyfwSUvTASkT8hl71vRX2.jpg);
+    width: 100%;
+    height:300px;
+    background-position: center;
+    background-size: cover;
+    margin-top: 15px;
+    display:flex;
+    justify-content:center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+#bigbanner .bantext{
+    margin-left: 80px;
+    text-shadow: 2px 2px 5px #000;
+}
+#bigbanner .bantext h2{
+    color:orangered;
+    margin-top: 10px;
+}
+#bigbanner .bantext p{
+    font-size:14px;
+    font-weight:700;
+    margin-top: 10px;
+}
+#bigbanner .bantext button{
+    margin-top: 40px;
+    padding: 10px 30px;
+    color:orangered;
+    background-color: #000;
+    border-radius: 4px;
+}
+#products .heading{
+    text-align: center;
+}
+#products .heading p{
+    color:orangered;
+    margin-top: 15px;
+}
+#products .prolist img{
+    width: 180px;
+    height: 280px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+#products .flex{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 30px;
+    padding: 2px;
+}
+#products .prolist{
+    width: 200px;
+    height:auto;
+    border: 1px solid#000;
+    border-radius: 10px;
+}
+#products .prolist h5{
+    margin-left: 10px;
+    font-size:18px;
+    margin-top:5px;
+}
+#products .prolist h6{
+    margin-left: 10px;
+    font-size:14px;
+    font-weight: 200;
+    margin-top:5px;
+}
+#products .prolist p{
+    margin-left: 10px;
+    font-size:14px;
+    margin-top:5px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    letter-spacing: -1px;
+}
+#products .prolist span{
+    color:red;
+    font-size: 12px;
+    letter-spacing: -1px;
+}
+#smbanner img{
+    width:400px;
+    height: 250px;
+}
+#smbanner{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#vsbanner img{
+    width: 275px;
+    height:275px;
+}
+#vsbanner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#bigbb img{
+    width: 100%;
+    height:300px;
+    background-position: center;
+    background-size: cover;
+    padding-top: 20px;
+}
+#email{
+    width:100%;
+    height: 100px;
+    background-color: #000;
+    margin-top: 20px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#email .text h4{
+    color:#fff;
+    letter-spacing: 1px;
+    font-size: 18px;
+}
+#email .text p{
+    color:#fff;
+    margin-top: 10px;
+    font-size: 12px;
+}
+#email input{
+    padding: 9px;
+    border-bottom-left-radius: 4px;
+    border-top-left-radius: 4px;
+    border: 1px solid#000;
+    border: none;
+}
+#email button{
+    padding: 9px;
+    border-bottom-right-radius: 4px;
+    border-top-right-radius: 4px;
+    border: 1px solid#000; 
+    border: none;
+    background-color: orangered;   
+}
+#notify .image img{
+    width: 400px;
+    height:auto;
+    padding-right: 40px;
+}
+#notify{
+    display:flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+#notify .notext p{
+    font-size: 14px;
+    text-align: justify;
+}
+#footer .logo a{
+    text-decoration: none;
+    font-size: 35px;
+    color: orangered;
+    font-weight:600;
+}
+#footer .payment img{
+    width:230px;
+    height:40px;
+}
+#footer .foot{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 10px;
+}
+#footer .foot p{
+    font-size: 14px;
+}
+#footer .foot span{
+    font-weight: 600;
+}
+#copyright{
+    text-align: center;
+    width:100%;
+    height: 30px;
+    background-color: orangered;
+    margin-bottom: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* @media only screen and (min-width: 200px) and (max-width:567px){
+    #main .text h1{
+        font-size: 14px;
+    }
+    #main .text h3{
+        font-size: 19;
+    }
+    #main .text p{
+        font-size: 14px;
+    }
+    #main .text{
+        width:100%;
+        height: auto;
+    }
+
+} */
